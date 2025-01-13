@@ -1,0 +1,19 @@
+{
+  "name": "dark-cookie-consent",
+  "version": "1.0.1",
+  "description": "A cookie consent manager with dark theme.",
+  "main": "index.js",
+  "scripts": {
+      "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "imLiaMxo",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "rollup": "^4.30.1",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}
