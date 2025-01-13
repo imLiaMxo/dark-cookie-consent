@@ -113,6 +113,7 @@ new CookieConsent({
     onAccept: () => { console.log("Cookies Accepted"); }, // Callback function for Accept button
     onSavePreferences: (preferences) => { console.log("Preferences saved:", preferences); } // Callback for saving preferences
 });
+```
 
 ## License
 
