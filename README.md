@@ -101,7 +101,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ## Customization
 
-You can modify the appearance of the cookie consent banner and modal by editing the `dark-cookie-consent.css` file or by providing your own CSS.
+You can now customize the cookie consent banner and modal using the following options:
+
+```javascript
+new CookieConsent({
+    consentText: "We use cookies to ensure you get the best experience.", // Customize the consent message
+    acceptButtonText: "I Accept", // Customize the Accept button text
+    settingsButtonText: "Cookie Settings", // Customize the Settings button text
+    savePreferencesButtonText: "Save Preferences", // Customize the Save Preferences button text
+    cookieExpirationDays: 90, // Set the cookie expiration days
+    onAccept: () => { console.log("Cookies Accepted"); }, // Callback function for Accept button
+    onSavePreferences: (preferences) => { console.log("Preferences saved:", preferences); } // Callback for saving preferences
+});
 
 ## License
 
